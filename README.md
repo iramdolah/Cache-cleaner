@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🧹 Cache Cleaner
+# 🧹 Pembersih Cache
 
-*A powerful and efficient cache cleaning utility for Windows systems*
+*Utilitas pembersih cache yang kuat dan efisien untuk sistem Windows*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://www.microsoft.com/windows)
@@ -10,129 +10,127 @@
 [![GitHub release](https://img.shields.io/github/release/iramdolah/Cache-cleaner.svg)](https://github.com/iramdolah/Cache-cleaner/releases)
 [![GitHub stars](https://img.shields.io/github/stars/iramdolah/Cache-cleaner.svg?style=social)](https://github.com/iramdolah/Cache-cleaner/stargazers)
 
-![Cache Cleaner Demo](https://via.placeholder.com/800x400/2E86AB/FFFFFF?text=Cache+Cleaner+Screenshot)
-
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 📋 Daftar Isi
 
-- [✨ Features](#-features)
-- [🚀 Quick Start](#-quick-start)
-- [📥 Installation](#-installation)
-- [💻 Usage](#-usage)
-- [🔧 Advanced Options](#-advanced-options)
-- [📊 Performance](#-performance)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🙏 Acknowledgments](#-acknowledgments)
+- [✨ Fitur](#-fitur)
+- [🚀 Mulai Cepat](#-mulai-cepat)
+- [📥 Instalasi](#-instalasi)
+- [💻 Penggunaan](#-penggunaan)
+- [🔧 Opsi Lanjutan](#-opsi-lanjutan)
+- [📊 Performa](#-performa)
+- [🤝 Kontribusi](#-kontribusi)
+- [📄 Lisensi](#-lisensi)
+- [🙏 Ucapan Terima Kasih](#-ucapan-terima-kasih)
 
 ---
 
-## ✨ Features
+## ✨ Fitur
 
 <div align="center">
 
-| Feature | Description |
-|---------|-------------|
-| 🗑️ **Comprehensive Cleaning** | Removes temporary files, browser cache, system cache |
-| ⚡ **Lightning Fast** | Optimized algorithms for quick cleaning operations |
-| 🛡️ **Safe & Secure** | Only removes safe-to-delete files and folders |
-| 🎯 **Targeted Cleaning** | Supports multiple browsers and applications |
-| 📊 **Progress Tracking** | Real-time progress updates during cleaning |
-| 🔄 **Automatic Backup** | Optional backup before cleaning critical files |
+| Fitur | Deskripsi |
+|-------|-----------|
+| 🗑️ **Pembersihan Menyeluruh** | Menghapus file sementara, cache browser, cache sistem |
+| ⚡ **Kecepatan Tinggi** | Algoritma yang dioptimalkan untuk operasi pembersihan cepat |
+| 🛡️ **Aman & Terjamin** | Hanya menghapus file dan folder yang aman untuk dihapus |
+| 🎯 **Pembersihan Terarah** | Mendukung berbagai browser dan aplikasi |
+| 📊 **Pelacakan Progres** | Update progres real-time selama pembersihan |
+| 🔄 **Backup Otomatis** | Backup opsional sebelum membersihkan file penting |
 
 </div>
 
-### 🎯 What Gets Cleaned
+### 🎯 Yang Akan Dibersihkan
 
-- **Windows Temp Files** (`%temp%`, `%tmp%`)
-- **Browser Cache** (Chrome, Firefox, Edge, Opera)
-- **System Cache** (DNS, Font cache, Icon cache)
-- **Application Temp Files**
-- **Recycle Bin** (optional)
-- **Log Files** (system and application logs)
+- **File Temp Windows** (`%temp%`, `%tmp%`)
+- **Cache Browser** (Chrome, Firefox, Edge, Opera)
+- **Cache Sistem** (DNS, Font cache, Icon cache)
+- **File Temp Aplikasi**
+- **Recycle Bin** (opsional)
+- **File Log** (log sistem dan aplikasi)
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Mulai Cepat
 
 ```batch
-# Clone the repository
+# Clone repository
 git clone https://github.com/iramdolah/Cache-cleaner.git
 
-# Navigate to directory
+# Masuk ke direktori
 cd Cache-cleaner
 
-# Run as Administrator
-Right-click on cache_cleaner.bat → "Run as administrator"
+# Jalankan sebagai Administrator
+Klik kanan pada cache_cleaner.bat → "Run as administrator"
 ```
 
-> **⚠️ Important:** Always run as Administrator for optimal cleaning results!
+> **⚠️ Penting:** Selalu jalankan sebagai Administrator untuk hasil pembersihan optimal!
 
 ---
 
-## 📥 Installation
+## 📥 Instalasi
 
-### Method 1: Download Release
-1. Go to [Releases](https://github.com/iramdolah/Cache-cleaner/releases)
-2. Download the latest version
-3. Extract to your preferred location
-4. Run `cache_cleaner.bat` as Administrator
+### Metode 1: Download Release
+1. Pergi ke [Releases](https://github.com/iramdolah/Cache-cleaner/releases)
+2. Download versi terbaru
+3. Ekstrak ke lokasi yang diinginkan
+4. Jalankan `cache_cleaner.bat` sebagai Administrator
 
-### Method 2: Clone Repository
+### Metode 2: Clone Repository
 ```bash
 git clone https://github.com/iramdolah/Cache-cleaner.git
 cd Cache-cleaner
 ```
 
-### Method 3: Direct Download
+### Metode 3: Download Langsung
 ```powershell
-# Using PowerShell
+# Menggunakan PowerShell
 Invoke-WebRequest -Uri "https://github.com/iramdolah/Cache-cleaner/archive/main.zip" -OutFile "cache-cleaner.zip"
 Expand-Archive -Path "cache-cleaner.zip" -DestinationPath "."
 ```
 
 ---
 
-## 💻 Usage
+## 💻 Penggunaan
 
-### Basic Usage
+### Penggunaan Dasar
 ```batch
-# Standard cleaning
+# Pembersihan standar
 cache_cleaner.bat
 
-# Silent mode (no prompts)
+# Mode senyap (tanpa prompt)
 cache_cleaner.bat /silent
 
-# Verbose output
+# Output verbose
 cache_cleaner.bat /verbose
 ```
 
-### Interactive Mode
-1. **Launch the script** as Administrator
-2. **Select cleaning options** from the menu
-3. **Confirm** your selections
-4. **Monitor progress** in real-time
-5. **Review results** and freed space
+### Mode Interaktif
+1. **Jalankan script** sebagai Administrator
+2. **Pilih opsi pembersihan** dari menu
+3. **Konfirmasi** pilihan Anda
+4. **Monitor progres** secara real-time
+5. **Tinjau hasil** dan ruang yang dibebaskan
 
-### Command Line Options
+### Opsi Command Line
 
-| Option | Description | Example |
-|--------|-------------|---------|
-| `/silent` | Run without user interaction | `cache_cleaner.bat /silent` |
-| `/verbose` | Show detailed output | `cache_cleaner.bat /verbose` |
-| `/backup` | Create backup before cleaning | `cache_cleaner.bat /backup` |
-| `/browsers` | Clean only browser cache | `cache_cleaner.bat /browsers` |
-| `/system` | Clean only system cache | `cache_cleaner.bat /system` |
+| Opsi | Deskripsi | Contoh |
+|------|-----------|--------|
+| `/silent` | Jalankan tanpa interaksi pengguna | `cache_cleaner.bat /silent` |
+| `/verbose` | Tampilkan output detail | `cache_cleaner.bat /verbose` |
+| `/backup` | Buat backup sebelum pembersihan | `cache_cleaner.bat /backup` |
+| `/browsers` | Bersihkan hanya cache browser | `cache_cleaner.bat /browsers` |
+| `/system` | Bersihkan hanya cache sistem | `cache_cleaner.bat /system` |
 
 ---
 
-## 🔧 Advanced Options
+## 🔧 Opsi Lanjutan
 
-### Custom Configuration
-Create a `config.ini` file to customize cleaning behavior:
+### Konfigurasi Kustom
+Buat file `config.ini` untuk menyesuaikan perilaku pembersihan:
 
 ```ini
 [Settings]
@@ -143,7 +141,7 @@ AutoRestart=false
 
 [Paths]
 CustomTempPath=C:\MyTemp
-ExcludeFolders=ImportantData,KeepThis
+ExcludeFolders=DataPenting,SimpanIni
 
 [Browsers]
 Chrome=true
@@ -152,122 +150,121 @@ Edge=true
 Opera=false
 ```
 
-### Scheduling Automatic Cleaning
+### Menjadwalkan Pembersihan Otomatis
 ```batch
-# Schedule daily cleaning at 2 AM
+# Jadwalkan pembersihan harian pada jam 2 pagi
 schtasks /create /tn "Cache Cleaner" /tr "C:\path\to\cache_cleaner.bat /silent" /sc daily /st 02:00
 ```
 
 ---
 
-## 📊 Performance
+## 📊 Performa
 
 <div align="center">
 
-### Typical Results
+### Hasil Tipikal
 
-| System Type | Files Cleaned | Space Freed | Time Taken |
-|-------------|---------------|-------------|------------|
-| 💻 **Light Usage** | 1,000-5,000 | 500MB-2GB | 30-60s |
-| 🖥️ **Regular Usage** | 5,000-15,000 | 2GB-8GB | 1-3 min |
-| 🏢 **Heavy Usage** | 15,000+ | 8GB+ | 3-10 min |
+| Tipe Sistem | File Dibersihkan | Ruang Dibebaskan | Waktu Dibutuhkan |
+|-------------|------------------|------------------|------------------|
+| 💻 **Penggunaan Ringan** | 1,000-5,000 | 500MB-2GB | 30-60s |
+| 🖥️ **Penggunaan Regular** | 5,000-15,000 | 2GB-8GB | 1-3 menit |
+| 🏢 **Penggunaan Berat** | 15,000+ | 8GB+ | 3-10 menit |
 
 </div>
 
-### Before & After Comparison
+### Perbandingan Sebelum & Sesudah
 ```
-📈 Cleaning Results:
+📈 Hasil Pembersihan:
 ┌─────────────────────┬──────────┬──────────┐
-│ Category            │ Before   │ After    │
+│ Kategori            │ Sebelum  │ Sesudah  │
 ├─────────────────────┼──────────┼──────────┤
-│ Temp Files          │ 2.3 GB   │ 0 MB     │
-│ Browser Cache       │ 1.8 GB   │ 0 MB     │
-│ System Cache        │ 892 MB   │ 0 MB     │
-│ Log Files           │ 234 MB   │ 0 MB     │
+│ File Temp           │ 2.3 GB   │ 0 MB     │
+│ Cache Browser       │ 1.8 GB   │ 0 MB     │
+│ Cache Sistem        │ 892 MB   │ 0 MB     │
+│ File Log            │ 234 MB   │ 0 MB     │
 └─────────────────────┴──────────┴──────────┘
 
-💾 Total Space Freed: 5.2 GB
-⏱️ Time Taken: 2 minutes 34 seconds
+💾 Total Ruang Dibebaskan: 5.2 GB
+⏱️ Waktu Dibutuhkan: 2 menit 34 detik
 ```
 
 ---
 
-## 🤝 Contributing
+## 🤝 Kontribusi
 
-We welcome contributions! Here's how you can help:
+Kami menyambut kontribusi! Berikut cara Anda dapat membantu:
 
-### 🐛 Bug Reports
-- Use the [issue tracker](https://github.com/iramdolah/Cache-cleaner/issues)
-- Include system information and error messages
-- Provide steps to reproduce the issue
+### 🐛 Laporan Bug
+- Gunakan [issue tracker](https://github.com/iramdolah/Cache-cleaner/issues)
+- Sertakan informasi sistem dan pesan error
+- Berikan langkah-langkah untuk mereproduksi masalah
 
-### 💡 Feature Requests
-- Check existing issues first
-- Clearly describe the feature and its benefits
-- Include use cases and examples
+### 💡 Permintaan Fitur
+- Periksa issues yang ada terlebih dahulu
+- Jelaskan fitur dan manfaatnya dengan jelas
+- Sertakan use case dan contoh
 
-### 🔧 Pull Requests
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+### 🔧 Pull Request
+1. Fork repository
+2. Buat branch fitur (`git checkout -b feature/fitur-luar-biasa`)
+3. Commit perubahan Anda (`git commit -m 'Tambah fitur luar biasa'`)
+4. Push ke branch (`git push origin feature/fitur-luar-biasa`)
+5. Buka Pull Request
 
-### 📝 Development Setup
+### 📝 Setup Development
 ```batch
-# Clone your fork
-git clone https://github.com/YOUR_USERNAME/Cache-cleaner.git
+# Clone fork Anda
+git clone https://github.com/USERNAME_ANDA/Cache-cleaner.git
 
-# Create development branch
+# Buat branch development
 git checkout -b dev-branch
 
-# Make your changes and test thoroughly
-# Test on different Windows versions if possible
+# Buat perubahan dan test secara menyeluruh
+# Test pada berbagai versi Windows jika memungkinkan
 ```
 
 ---
 
-## 📄 License
+## 📄 Lisensi
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
 
 ```
 MIT License
 
 Copyright (c) 2024 iramdolah
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction...
+Dengan ini diberikan izin, secara gratis, kepada siapa pun yang memperoleh salinan
+dari perangkat lunak ini dan file dokumentasi terkait ("Perangkat Lunak"), untuk berurusan
+dalam Perangkat Lunak tanpa batasan...
 ```
 
 ---
 
-## 🙏 Acknowledgments
+## 🙏 Ucapan Terima Kasih
 
-- 💖 **Contributors** - Thank you to all who have contributed to this project
-- 🛠️ **Tools Used** - Windows Batch scripting, Git, GitHub
-- 📚 **Inspiration** - Various system optimization tools and community feedback
-- 🌟 **Special Thanks** - To the open-source community for continuous support
+- 💖 **Kontributor** - Terima kasih kepada semua yang telah berkontribusi pada proyek ini
+- 🛠️ **Tools yang Digunakan** - Windows Batch scripting, Git, GitHub
+- 📚 **Inspirasi** - Berbagai tools optimasi sistem dan feedback komunitas
+- 🌟 **Terima Kasih Khusus** - Kepada komunitas open-source untuk dukungan berkelanjutan
 
 ---
 
 <div align="center">
 
-### 📞 Support & Contact
+### 📞 Dukungan & Kontak
 
 [![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/iramdolah/Cache-cleaner/issues)
-[![Email](https://img.shields.io/badge/Email-Contact-blue?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
 
 ---
 
-**⭐ Star this repository if you find it helpful!**
+**⭐ Beri star pada repository ini jika menurut Anda membantu!**
 
-*Made with ❤️ by [iramdolah](https://github.com/iramdolah)*
+*Dibuat dengan ❤️ oleh [iramdolah](https://github.com/iramdolah)*
 
 ---
 
-### 📊 Repository Stats
+### 📊 Statistik Repository
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iramdolah/Cache-cleaner)
 ![GitHub last commit](https://img.shields.io/github/last-commit/iramdolah/Cache-cleaner)
