@@ -23,8 +23,6 @@
 - [🔧 Opsi Lanjutan](#-opsi-lanjutan)
 - [📊 Performa](#-performa)
 - [🤝 Kontribusi](#-kontribusi)
-- [📄 Lisensi](#-lisensi)
-- [🙏 Ucapan Terima Kasih](#-ucapan-terima-kasih)
 
 ---
 
@@ -222,31 +220,6 @@ git checkout -b dev-branch
 # Buat perubahan dan test secara menyeluruh
 # Test pada berbagai versi Windows jika memungkinkan
 ```
-
----
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
-
-```
-MIT License
-
-Copyright (c) 2024 iramdolah
-
-Dengan ini diberikan izin, secara gratis, kepada siapa pun yang memperoleh salinan
-dari perangkat lunak ini dan file dokumentasi terkait ("Perangkat Lunak"), untuk berurusan
-dalam Perangkat Lunak tanpa batasan...
-```
-
----
-
-## 🙏 Ucapan Terima Kasih
-
-- 💖 **Kontributor** - Terima kasih kepada semua yang telah berkontribusi pada proyek ini
-- 🛠️ **Tools yang Digunakan** - Windows Batch scripting, Git, GitHub
-- 📚 **Inspirasi** - Berbagai tools optimasi sistem dan feedback komunitas
-- 🌟 **Terima Kasih Khusus** - Kepada komunitas open-source untuk dukungan berkelanjutan
 
 ---
 
